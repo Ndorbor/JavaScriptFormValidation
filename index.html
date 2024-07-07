@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <center>   <H1>Introduction to HTML JavaScript Form Validation</H1>
+    <form id="jsform" onsubmit="return formvalidation()">
+        <h1>Rhotel Student Login Form</h1>
+        <label for="nameInput">Full Name:</label><br>
+        <input type="text" id="nameInput" placeholder="Please enter your full name">
+        <span id="nameErrorMessage"></span><br><br>
+        
+        <label for="genderSection">Gender:</label><br>
+        <select id="genderSection" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select><br><br>
+        
+        <label for="ageInput">Age:</label><br>
+        <input type="number" id="ageInput" placeholder="Please enter your age">
+        <span id="ageErrorMessage"></span><br><br>
+        
+        <button type="submit" id="submit">Submit</button><br><br>
+    </form>
+    
+    <script src="./validation.js"></script>
+    </center>
+</body>
+</html>

@@ -1,0 +1,36 @@
+/* #jsform{background-color: black; width: 100%; height: auto;
+     border-radius: 10%; border: 5px white solid;
+color: white; font-size: 20px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+#nameInput,#genderSection,#ageInput{width: 250px; height: 30px;}
+body{background-color: aqua;padding: 0px;margin: 0px;}
+#nameErrorMessage,#ageErrorMessage{color: red; font-size: 12px;} */
+
+
+/* Default styles */
+#jsform {
+     background-color: black;
+     width: 100%;
+     height: auto;
+     border-radius: 10%;
+     border: 5px white solid;
+     color: white;
+     font-size: 20px;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ 
+ #nameInput, #genderSection, #ageInput {
+     width: 250px;
+     height: 30px;
+ }
+ 
+ body {
+     background-color: aqua;
+     padding: 0px;
+     margin: 0px;
+ }
+ 
+ #nameErrorMessage, #ageErrorMessage {
+     color: red;
+     font-size: 12px;
+ }
+ 
